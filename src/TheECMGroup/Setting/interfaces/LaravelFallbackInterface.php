@@ -28,5 +28,4 @@ class LaravelFallbackInterface implements FallbackInterface {
     }
     return $settingExists;
   }
-
 }

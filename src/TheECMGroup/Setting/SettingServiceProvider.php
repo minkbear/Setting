@@ -21,7 +21,7 @@ class SettingServiceProvider extends ServiceProvider {
    */
   public function boot() {
     $this->publishes([
-            __DIR__ . '/../config/setting.php' => config_path('setting.php'),
+            __DIR__ . '/../../config/setting.php' => config_path('setting.php'),
     ]);
   }
 
@@ -31,8 +31,8 @@ class SettingServiceProvider extends ServiceProvider {
    * @return void
    */
   public function register() {
+    $this->mergeConfigFrom(__DIR__ . '/../../config/setting.php', 'setting');
     $this->app->bind('Setting', function($app) {
-      $this->mergeConfigFrom(__DIR__ . '/../config/setting.php', 'setting');
       $path = $app['config']['setting.path'];
       $filename = $app['config']['setting.filename'];
 
@@ -46,14 +46,4 @@ class SettingServiceProvider extends ServiceProvider {
       }
     });
   }
-
-  /**
-   * Get the services provided by the provider.
-   *
-   * @return array
-   */
-  public function provides() {
-    return array('TheECMGroup\Setting\Setting');
-  }
-
 }

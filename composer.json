@@ -1,5 +1,5 @@
 {
-    "name": "theecmgroup/setting",
+    "name": "the-ecm-group/setting",
     "description": "Persistent configuration settings for Laravel - Create, Read, Update and Delete settings stored in files using JSON",
     "keywords": ["laravel", "config"],
     "license": "MIT",
