@@ -1,6 +1,6 @@
 <?php
 
-use Philf\Setting\Setting;
+use TheECMGroup\Setting\Setting;
 
 /**
  * Class SettingTest

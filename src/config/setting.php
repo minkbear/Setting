@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'path'     => app_path().'/storage/meta',
+    'path'     => storage_path().'/app',
     'filename' => 'setting.json',
     'fallback' => true,
     'autoAlias'=> true,

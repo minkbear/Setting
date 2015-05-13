@@ -1,4 +1,4 @@
-<?php namespace Philf\Setting\Facades;
+<?php namespace TheECMGroup\Setting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

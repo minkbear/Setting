@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Phil-F/Setting.png)](https://travis-ci.org/Phil-F/Setting)
+[![Build Status](https://travis-ci.org/The-ECM-Group/Setting.svg)](https://travis-ci.org/The-ECM-Group/Setting)
 
 # Laravel Setting
 
@@ -23,14 +23,14 @@ Require this package in your composer.json:
 
 And add the ServiceProvider to the providers array in app/config/app.php
 
-    'Philf\Setting\SettingServiceProvider',
+    'TheECMGroup\Setting\SettingServiceProvider',
 
 ## Usage
 
 ##Config
 
     return array(
-    'path'     => app_path().'/storage/meta',
+    'path'     => storage_path().'/app',
     'filename' => 'setting.json',
     'fallback' => true,
     'autoAlias => true,

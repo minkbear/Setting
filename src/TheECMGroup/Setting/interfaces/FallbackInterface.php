@@ -1,8 +1,8 @@
-<?php namespace Philf\Setting\interfaces;
+<?php namespace TheECMGroup\Setting\interfaces;
 
 /**
  * Class FallbackInterface
- * @package Philf\Setting\interfaces
+ * @package TheECMGroup\Setting\interfaces
  */
 interface FallbackInterface {
 
