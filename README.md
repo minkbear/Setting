@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/The-ECM-Group/Setting.svg)](https://travis-ci.org/The-ECM-Group/Setting)
 
-# Laravel Setting
+# Laravel Setting (Laravel 5 package)
 
 Persistent configuration settings for Laravel - Create, Read, Update and Delete settings stored in files using JSON.
 
