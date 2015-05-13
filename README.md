@@ -8,7 +8,7 @@ This package was the result of me not being able to save new settings to config 
 
 This package was designed not to replace the config solution currently offered by Laravel but rather complement it and be used in unison with it.
 
-By default the data is stored in app_path().'/storage/meta/setting.json' but this can be easily changed either in the config file or on the fly in realtime.
+By default the data is stored in storage_path().'/app/setting.json' but this can be easily changed either in the config file or on the fly in realtime.
 
 This package also provides a fallback for the Laravel Config facade, you can set it in the config, if the key is not found in the json file it will look it up in the Config facade.
 
@@ -24,6 +24,10 @@ Require this package in your composer.json:
 And add the ServiceProvider to the providers array in app/config/app.php
 
     'TheECMGroup\Setting\SettingServiceProvider',
+
+And publish the config file
+
+    php artisan vendor:publish --provider="TheECMGroup\Setting\SettingServiceProvider"
 
 ## Usage
 
