@@ -1,9 +1,9 @@
 <?php
 
-namespace TheECMGroup\Setting;
+namespace minkbear\Setting;
 
 use Illuminate\Support\ServiceProvider;
-use TheECMGroup\Setting\interfaces\LaravelFallbackInterface;
+use minkbear\Setting\interfaces\LaravelFallbackInterface;
 
 class SettingServiceProvider extends ServiceProvider {
 
@@ -42,7 +42,7 @@ class SettingServiceProvider extends ServiceProvider {
     $this->app->booting(function($app) {
       if ($app['config']['setting.autoAlias']) {
         $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('Setting', 'TheECMGroup\Setting\Facades\Setting');
+        $loader->alias('Setting', 'minkbear\Setting\Facades\Setting');
       }
     });
   }

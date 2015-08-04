@@ -1,4 +1,4 @@
-<?php namespace TheECMGroup\Setting;
+<?php namespace minkbear\Setting;
 
 /*
  * ---------------------------------------------
@@ -44,7 +44,7 @@
 
 /**
  * Class Setting
- * @package TheECMGroup\Setting
+ * @package minkbear\Setting
  */
 class Setting {
 
@@ -85,7 +85,7 @@ class Setting {
     /**
      * Set the path to the file to use
      * @param  string $path The path to the file
-     * @return \TheECMGroup\Setting\Setting
+     * @return \minkbear\Setting\Setting
      */
     public function path($path)
     {
@@ -96,7 +96,7 @@ class Setting {
     /**
      * Set the filename to use
      * @param  string $filename The filename
-     * @return \TheECMGroup\Setting\Setting
+     * @return \minkbear\Setting\Setting
      */
     public function filename($filename)
     {
@@ -177,7 +177,7 @@ class Setting {
      * Load the file in to $this->settings so values can be used immediately
      * @param  string $path     The path to be used
      * @param  string $filename The filename to be used
-     * @return \TheECMGroup\Setting\Setting
+     * @return \minkbear\Setting\Setting
      */
     public function load($path = null, $filename = null)
     {

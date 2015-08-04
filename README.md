@@ -23,11 +23,11 @@ Require this package in your composer.json:
 
 And add the ServiceProvider to the providers array in app/config/app.php
 
-    'TheECMGroup\Setting\SettingServiceProvider',
+    'minkbear\Setting\SettingServiceProvider',
 
 And publish the config file
 
-    php artisan vendor:publish --provider="TheECMGroup\Setting\SettingServiceProvider"
+    php artisan vendor:publish --provider="minkbear\Setting\SettingServiceProvider"
 
 ## Usage
 

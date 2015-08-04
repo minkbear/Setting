@@ -1,6 +1,6 @@
 <?php
 
-use TheECMGroup\Setting\Setting;
+use minkbear\Setting\Setting;
 
 /**
  * Class SettingTest

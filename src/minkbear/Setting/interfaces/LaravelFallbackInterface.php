@@ -1,10 +1,10 @@
 <?php
 
-namespace TheECMGroup\Setting\interfaces;
+namespace minkbear\Setting\interfaces;
 
 /**
  * Class LaravelFallbackInterface
- * @package TheECMGroup\Setting\interfaces
+ * @package minkbear\Setting\interfaces
  */
 class LaravelFallbackInterface implements FallbackInterface {
 

@@ -1,8 +1,8 @@
-<?php namespace TheECMGroup\Setting\interfaces;
+<?php namespace minkbear\Setting\interfaces;
 
 /**
  * Class FallbackInterface
- * @package TheECMGroup\Setting\interfaces
+ * @package minkbear\Setting\interfaces
  */
 interface FallbackInterface {
 

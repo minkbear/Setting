@@ -1,4 +1,4 @@
-<?php namespace TheECMGroup\Setting\Facades;
+<?php namespace minkbear\Setting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

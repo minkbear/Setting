@@ -1,5 +1,5 @@
 {
-    "name": "the-ecm-group/setting",
+    "name": "minkbear/setting",
     "description": "Persistent configuration settings for Laravel - Create, Read, Update and Delete settings stored in files using JSON",
     "keywords": ["laravel", "config"],
     "license": "MIT",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "TheECMGroup\\Setting": "src/"
+            "minkbear\\Setting": "src/"
         }
     },
     "minimum-stability": "dev"
